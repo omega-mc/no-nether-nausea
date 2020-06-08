@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "draylar.nonethernausea.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "InGameHudMixin",
+    "ClientPlayerEntityMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "no-nether-nausea",
+  "version": "${version}",
+  "name": "No Nether Nausea",
+  "description": "Nukes the Nether FX when you're standing in a portal, as well as an option for standard nausea.",
+  "authors": [
+    "Draylar"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/no-nether-nausea/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "draylar.nonethernausea.NoNetherNauseaClient"
+    ]
+  },
+  "mixins": [
+    "no-nether-nausea.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7+build.201",
+    "fabric": "*",
+    "minecraft": "1.15.2"
+  }
+}
